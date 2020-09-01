@@ -65,6 +65,7 @@
 									<button onclick="makeBig()">Big</button>
 									<button onclick="makeSmall()">Small</button>
 									<button onclick="makeNormal()">Normal</button>
+									<button onclick="showControls()">Controls</button>
 									<br><br>
 									<video id="video1" width="420">
 									  <source src="odbhutMugdhota.mp4" type="video/mp4">									  
@@ -93,6 +94,10 @@
 								  function makeNormal() { 
 									  myVideo.width = 420; 
 								  } 
+
+								  function showControls() {
+									  myVideo.controls = true;
+								  }
 								  </script> 
 								  
                                                  
